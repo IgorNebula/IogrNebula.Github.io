@@ -11,7 +11,7 @@ scene
     if (quiz.current < quiz.questions.length) {
       //textQuestion
       const textQuest = `${quiz.current+1}из${quiz.questions.length} ${quiz.questions[quiz.current].text}`
-      //создаем кнпки
+      //создаем кнoпки
       const buttons = [];
       for(let i=0;i<quiz.questions[quiz.current].answers.length;i++){
         buttons.push([
