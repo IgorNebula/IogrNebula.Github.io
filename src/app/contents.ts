@@ -131,7 +131,7 @@ questions.push(
       new Answer(`a`, 0),
       new Answer(`5`, 0),
       new Answer(`Будет ошибка`, 0),
-      new Answer(`"No"`, 0),
+      new Answer(`"No"`, 1),
     ]
   )
 );
