@@ -26,5 +26,8 @@ export class Bot {
         await ctx.scene.enter("scene");
       });
     this.bot.launch();
+
+    process.once("SIGINT", () => this.bot.stop("SIGINT"));
+    process.once("SIGTERM", () => this.bot.stop("SIGTERM"));
   }
 }
